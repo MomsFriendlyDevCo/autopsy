@@ -1,12 +1,17 @@
 @MomsFriendlyDevCo/Autopsy
 ==========================
-Identify meta data about a function.
+Identify meta data about a function from its header.
 
-This is an extremely simple utility library centralized in one place with testkits.
+
+Why
+---
+I got tired of writing the same function examination code for different libraries and constantly finding edge-cases.
+This library serves as a simple utility library centralized in one place along with testkits.
 
 
 API
 ===
+This module exposes the following functions:
 
 
 autopsy.identify(fn)
